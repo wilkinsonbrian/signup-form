@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+.logo {
+    display: flex;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    opacity: .6;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+}
+
+.sidebar {
+    position: relative;
+}
+
+.sidebar>img {
+    height: 100vh;
+}
+
+.sidebar>.logo>img {
+    height: 90%;
+}
+
+.music {
+    font-family: 'Imperial Script', cursive;
+    font-size: 64px;
+    color: white;
+    padding-top: 40px;
+}
+
+body {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.form-elements {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F0EF;
+    padding: 20px 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.instructions, .do-this {
+    font-size: 24px;
+}
+
+.do-this {
+    margin-bottom: 20px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+fieldset {
+    display: flex;
+    gap: 60px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-size: .8rem;
+}
+
+input {
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    font-size: .9rem;
+    height: 30px;
+}
+
+.no-err {
+    border: 1px solid #E5E7EB;
+}
+
+input:focus {
+  border: blue;
+  box-shadow: 5px 5px 8px #888888;
+}
+
+button {
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: #d84071;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    margin: 20px 0px;
+}
+
+a {
+    color:  #d84071;
+}
+
+.msg {
+    color: red;
+    font-size: .7rem;
+    display: none;
+}
+
+
+
+
+

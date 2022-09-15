@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-Up Form</title>
+</head>
+<body>
+   <div class="sidebar">
+        <div class="logo">
+            <img src="musical-notes-white.png" alt="white musical notes">
+            <div class="music">Music</div>
+        </div>
+        <img src="concert.jpeg" alt="empty stage before a concert">
+   </div>
+   <div class="form-elements">
+        <div class="instructions"><p>This is not a real online service! You know you need something like this in your life to help
+            you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <form action="/dosomething" method="post">
+            <div class="do-this">Let's do this!</div>
+            <div class="fields">
+                <fieldset>
+                    <div class="group">
+                        <label for="first">FIRST NAME</label>
+                        <input type="text" id="first" name="first_name">
+                    </div>
+                    <div class="group">
+                        <label for="last">LAST NAME</label>
+                        <input type="text" id="last" name="last_name">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="group">
+                        <label for="phone">PHONE</label>
+                        <input type="number" id="phone" name="phone">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="group pwdgroup">
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" id="pwd" name="pssword" class="error no-err" required>
+                        <div class="msg">*The passwords do not match</div>
+                    </div>
+                    <div class="group">
+                        <label for="cpwd">CONFIRM PASSWORD</label>
+                        <input type="password" id="cpwd" name="cpssword" class="error no-err" required>
+                    </div>
+                </fieldset>
+            </div>
+            <button type="submit">Create Account</button>
+            <div class="account-exists">Already have an account?<a href="https://www.google.com"> Log in</a></div>
+        </form>
+   </div>
+</body>
+<script src="script.js"></script> 
+</html>
